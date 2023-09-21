@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="Stylesheet" href="style.css">
+    <title>Te amo ❤️</title>
+</head>
+<body>
+
+
+<div class="flower" id="flower">
+    <div class="text-above">De : Kenneth 😳</div>
+    <div class="mid">
+    </div>
+    <div class="Petal1 p1">
+    </div>
+    <div class="Petal1 p2">
+    </div>
+    <div class="Petal1 p3">
+    </div>
+    <div class="Petal1 p4">
+    </div>
+    <div class="Petal2 p1">
+    </div>
+    <div class="Petal2 p2">
+    </div>
+    <div class="Petal2 p3">
+    </div>
+    <div class="Petal2 p4">
+    </div>
+    <div class="Petal3 p1">
+    </div>
+    <div class="Petal3 p2">
+    </div>
+    <div class="Petal3 p3">
+    </div>
+    <div class="Petal3 p4">
+    </div>
+    <div class="text-below">Para: Mi niña❤️</div>
+  </div>
+
+  <style>
+    /* Oculta el reproductor de audio */
+    audio {
+        position: absolute;
+        top: -9999px;
+        left: -9999px;
+    }
+</style>
+
+<audio id="music">
+    <source src="cancion.mp3" type="audio/mpeg">
+    Tu navegador no soporta la reproducción de audio.
+</audio>
+
+<script>
+    // Obtener el elemento del ramo de flores
+    var flower = document.getElementById("flower");
+
+    // Obtener el elemento de audio
+    var music = document.getElementById("music");
+
+    // Agregar un evento de clic al ramo de flores para reproducir la música
+    flower.addEventListener("click", function() {
+        // Reproducir la música
+        music.play();
+    });
+</script>
+
+
+
+
+</body>
+</html>
+
+
